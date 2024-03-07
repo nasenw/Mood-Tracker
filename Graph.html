@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="Graph.css" rel="stylesheet">
 </head>
+<div class="header">
+  <a id="home" href="LogInPage.html"> Home</a>
+  <a id="calendar" href="CalendarPage.html"> Calendar</a>
+  <a id="graphs" href="Graph.html"> Graphs</a>
+  <a id="stats" href="Stats.html"> Stats</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 <body>
-    
-</body>
-</html>
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+const yValues = [null,1,5,3,2,5,3,3];
+
+const customYLabels = ["Mad", "Sad", "Annoyed","Neutral", "Decent", "Good", "Great"];
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: ["","Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",""],
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(0,0,255,1.0)",
+      borderColor: "rgba(0,0,255,0.1)",
+      data: yValues
+    }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        ticks: {
+          callback: function(value, index, values) {
+            return customYLabels[value-1];
+          },
+          min: 0, max:8,
+        },
+        scaleLabel: {
+          display: true,
+          labelString: 'Mood Level'
+        }
+      }]
+    }
+  }
+});
+</script>
