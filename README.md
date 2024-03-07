@@ -1,1 +1,1 @@
-# Mood-Tracker
+# MoodTracker

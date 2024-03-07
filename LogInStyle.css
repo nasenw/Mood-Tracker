@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(200, 177, 221);
+  }
+  
+
+h1{
+    margin: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+form{
+    margin:auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background-image:linear-gradient(45deg, rgb(200, 177, 221) 30%, white 60%);
+    padding-bottom: 10px;
+    border-bottom: 1px black solid;
+    position: absolute;
+    top: 0;
+}
+
+.header h1{
+    text-align: center;
+    color: black;
+    font-family:fantasy;
+    padding-top: 20px;
+}
+
+.login{
+    padding-top: 20px;
+    font-family:fantasy;
+    
+}
+
+.login form{
+    border-top: 0px;
+    font-family:fantasy;
+    font-size: 20pt;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.login h2{
+    font-size: 24pt;
+    padding-left: 10px;
+}
+
+.footerContainer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px black solid;
+    font-family:fantasy;
+    background-image:linear-gradient(45deg, white 10%, rgb(200, 177, 221) 60%);
+}
