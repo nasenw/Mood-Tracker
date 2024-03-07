@@ -1,12 +1,50 @@
 .header{
     width: 100%;
-    height: 6%;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     background-image:linear-gradient(45deg, rgb(115, 115, 115) 10%, rgb(184, 183, 184) 60%);
     border-bottom: 1px black solid;
-    position: absolute;
-    top: 0;
+    
 }
+
+.headerText {
+    color: black;
+    font-family:fantasy;
+}
+
+canvas {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 75px;
+}
+
+#changeWeekButtons {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    border-top: 1px black solid;
+    font-family:fantasy;
+    background-image:linear-gradient(45deg, rgb(115, 115, 115) 10%, rgb(184, 183, 184) 60%);
+}
+
+.footerContainer h6{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 20px;
+}
+
+
