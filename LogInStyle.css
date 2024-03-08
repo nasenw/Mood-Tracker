@@ -6,7 +6,7 @@ body {
     min-height: 100vh; 
     margin: 0;
     padding: 0;
-    background-color: rgb(200, 177, 221);
+    background-color: #fff5e6;
   }
   
 
@@ -23,7 +23,7 @@ form{
 .header{
     width: 100%;
     height: 50px;
-    background-image:linear-gradient(45deg, rgb(200, 177, 221) 30%, white 60%);
+    background-color: #343434;
     padding-bottom: 10px;
     border-bottom: 1px black solid;
     position: absolute;
@@ -32,20 +32,20 @@ form{
 
 .header h1{
     text-align: center;
-    color: black;
-    font-family:fantasy;
+    color: rgb(255, 255, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 20px;
 }
 
 .login{
     padding-top: 20px;
-    font-family:fantasy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
 .login form{
     border-top: 0px;
-    font-family:fantasy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20pt;
     padding: 10px;
     border: 1px black solid;
@@ -62,6 +62,6 @@ footer{
     width: 100%;
     height: 10%;
     border-top: 1px black solid;
-    font-family:fantasy;
-    background-image:linear-gradient(45deg, rgb(115, 115, 115) 10%, rgb(184, 183, 184) 60%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #343434;
 }
