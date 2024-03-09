@@ -8,17 +8,15 @@ body {
   }
 
 .header{
-width: 100%;
-height: 50px;
-display: flex;
-justify-content: start;
-align-items: center;
-gap: 50px;
-background-color: #343434;
-border-top: 6px solid rgb(40, 40, 40);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+    background-color: #343434;
+    border-top: 6px solid rgb(40, 40, 40);
 /* border-bottom: 4px solid rgb(43, 43, 43); */
-padding-left: 50px;
-    
 }
 
 .headerLogin {
@@ -27,12 +25,14 @@ padding-left: 50px;
     text-decoration: none;
     margin-left: auto;
     padding-right: 50px;
+    padding-left: 50px;
 }
 
 .headerText {
     color: rgb(255, 255, 255);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+    padding-left: 50px;
 }
 
 .CalendarContainer 
